@@ -4,9 +4,9 @@ import { Outlet } from "react-router";
 const AuthLayout = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
